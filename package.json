@@ -1,0 +1,26 @@
+{
+  "author": "Fernando Braz <fb@gamekaiju.monster> (https://gamekaiju.monster/)",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^3.2.3"
+  },
+  "description": "Remotion template for Gamekaiju.",
+  "devDependencies": {
+    "@remotion/cli": "^3.2.3",
+    "@remotion/eslint-config": "^3.2.3",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1"
+  },
+  "license": "MIT",
+  "name": "guide-coolify-remotion",
+  "scripts": {
+    "dev": "remotion preview src/index.jsx",
+    "build": "remotion render src/index.jsx HelloWorld dist/remotion-template.mp4",
+    "check:lint": "pnpm exec eslint . && pnpm exec prettier . --check",
+    "lint": "pnpm exec eslint . --fix && pnpm exec prettier . --write"
+  },
+  "version": "1.0.0"
+}
