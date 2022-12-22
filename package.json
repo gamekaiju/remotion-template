@@ -3,16 +3,16 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remotion": "^3.2.3"
+    "remotion": "^3.3.16"
   },
   "description": "Remotion template for Gamekaiju.",
   "devDependencies": {
-    "@remotion/cli": "^3.2.3",
-    "@remotion/eslint-config": "^3.2.3",
-    "eslint": "^8.22.0",
+    "@remotion/cli": "^3.3.16",
+    "@remotion/eslint-config": "^3.3.16",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.1",
-    "prettier": "^2.7.1"
+    "husky": "^8.0.2",
+    "prettier": "^2.8.1"
   },
   "license": "MIT",
   "name": "guide-coolify-remotion",
